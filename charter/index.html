@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RSS Portfolio - Team Charter</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../theme.js"></script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="../#home" class="nav-brand">RSS Team 5</a>
+    <div class="nav-links">
+      <a href="../#about" data-robot="🤖">About</a>
+      <a href="../labs/" data-robot="🦾"><i class="fa fa-folder"></i> Labs</a>
+      <a href="./" data-robot="📋"><i class="fa fa-file-text"></i> Charter</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" data-robot="🛸"><i class="fa fa-camera"></i> Videos</a>
+      <a href="https://github.com/mit-rss" data-robot="🔧"><i class="fa fa-github"></i> Github</a>
+    </div>
+    <button class="nav-toggle" id="navToggle"><i class="fa fa-bars"></i></button>
+  </div>
+</nav>
+
+<!-- Mobile Sidebar -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<nav class="mobile-sidebar" id="mobileSidebar">
+  <a href="../#about">About</a>
+  <a href="../labs/">Labs</a>
+  <a href="./">Charter</a>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Videos</a>
+  <a href="https://github.com/mit-rss">Github</a>
+</nav>
+
+<!-- Hero Header -->
+<header class="hero" style="background-image: url('../img/mit.jpg');">
+  <div class="hero-content">
+    <h1>Team Charter</h1>
+  </div>
+</header>
+
+<!-- Charter Content -->
+<div class="lab-content">
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vTX69SFlfFRON8Jh6EHR5LMouDhMbAS9Rm7z2bjGqtOhx86FthYzpkaXMxNKnlUHP-Y60JjFD1n9LZ1/pub?embedded=true" width="100%" height="900px" style="display:block; margin:20px auto; border:none;"></iframe>
+</div>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-nav">
+    <a href="../" class="btn"><i class="fa fa-arrow-left"></i> Home</a>
+    <a href="#" class="btn"><i class="fa fa-arrow-up"></i> To the top</a>
+  </div>
+  <p class="credit">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+</footer>
+
+<!-- Theme Switcher -->
+<button class="theme-toggle-btn" id="themeToggleBtn"><i class="fa fa-paint-brush"></i></button>
+<div class="theme-panel" id="themePanel">
+  <h4>Accent Color</h4>
+  <div class="color-swatches">
+    <div class="color-swatch" data-color="red" title="Red"></div>
+    <div class="color-swatch" data-color="blue" title="Blue"></div>
+    <div class="color-swatch" data-color="teal" title="Teal"></div>
+    <div class="color-swatch" data-color="purple" title="Purple"></div>
+    <div class="color-swatch" data-color="orange" title="Orange"></div>
+  </div>
+  <div class="dark-toggle">
+    <span>Dark Mode</span>
+    <label class="switch">
+      <input type="checkbox" id="darkModeCheckbox">
+      <span class="slider"></span>
+    </label>
+  </div>
+</div>
+
+</body>
+</html>
